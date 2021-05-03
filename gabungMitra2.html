@@ -7,6 +7,7 @@
 
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 <link rel="stylesheet" href="css/gabungmitra.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -15,71 +16,88 @@
 </head>
 <body>
 
-<nav class="navbar navbar-light navbar-clr">
-	<div class="container-fluid ms-5">
-        <a class="navbar-brand" style="color: #11BCC7;" href="index.html"> <img src="assets/logo.png" width="20%" alt=""> <b>Woka</b></a>
-	</div>
-</nav>
-<div class="bar">
-	<p style="text-align: center;">....</p>
-</div>
-
-<div class="container mt-5">
-
-	<div class="row">
-		<h3> <b> Informasi Keahlian </b> </h3>
-		<p>Perlihatkan keahlian anda kepada calon pelanggan, <br>
-		kemampuan terbaik, sertifikasi dll.</p> 
-	</div>
-
-	<div class="row mt-4 bottom form-set">
-		<form>
-			<div class="row mt-4">
-				<div class="col-lg-4 col-sm-12">
-					<h6> <b> Keahlian </b> </h6>
-					<p>Informasi ini tidak akan kami tampilkan ke publik</p>
-				</div>
-				<div class="col-lg col-sm-12">
-					<input type="text" class="form-control" placeholder="Keahlian">
-				</div>
-			</div>
-
-			<div class="row mt-4">
-				<div class="col-lg-4 col-sm-12">
-					<h6> <b> Pendidikan </b> </h6>
-				</div>
-				<div class="col-lg-4 col-sm-12">
-					<input type="text" class="form-control" placeholder="Pendidikan">
-				</div>
-				<div class="col-lg col-sm-12">
-					<button class="btn" style="background-color: #7784EE; color: white;">Tambah</button>
-				</div>
-			</div>
-
-			<div class="row mt-4">
-				<div class="col-lg-4 col-sm-12">
-					<h6> <b> Sertifikasi </b> </h6>
-				</div>
-				<div class="col-lg-4 col-sm-12">
-					<input type="text" class="form-control" placeholder="Sertifikasi">
-				</div>
-				<div class="col-lg col-sm-12">
-					<button class="btn" style="background-color: #7784EE; color: white;">Tambah</button>
-				</div>
-			</div>
-
-			<div class="row top">
-				<button class="btn btn-next ms-auto" formaction="gabungMitra3.html">Lanjutkan</button>
-			</div>
-		</form>
+	<nav class="navbar navbar-light navbar-clr">
+		<div class="container-fluid ms-5">
+			<a class="navbar-brand" style="color: #11BCC7;" href="index.html"> <img src="assets/logo.png" width="20%" alt=""> <b>Woka</b></a>
+		</div>
+	</nav>
+	<div class="row bar flex">
+		<div class="col-lg col-sm-12 flex" style="color: #1778B0;">
+			<i class="bi bi-check-circle"></i> 
+			&nbsp;Informasi Pribadi
+		</div>
+		<div class="col-lg-1 col-sm-1 flex">
+			<b><i class="bi bi-chevron-double-right"></i></b>
+		</div>
+		<div class="col-lg col-sm-12 flex">
+			<b>2. </b>
+			&nbsp;Informasi Keahlian
+		</div>
+		<div class="col-lg-1 col-sm-1 flex">
+			<b><i class="bi bi-chevron-double-right"></i></b>
+		</div>
+		<div class="col-lg col-sm-12 flex">
+			<b>3. </b>
+			&nbsp;Keamanan
+		</div>
 	</div>
 
-	<div class="footer">
-		<p>Woka @ 2021, PT. Woka.</p>
-	</div>
-</div>
+	<div class="container mt-5">
 
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+		<div class="row">
+			<h3> <b> Informasi Keahlian </b> </h3>
+			<p>Perlihatkan keahlian anda kepada calon pelanggan, <br>
+			kemampuan terbaik, sertifikasi dll.</p> 
+		</div>
+
+		<div class="row mt-4 bottom form-set">
+			<form>
+				<div class="row mt-4">
+					<div class="col-lg-4 col-sm-12">
+						<h6> <b> Keahlian </b> </h6>
+						<p>Informasi ini tidak akan kami tampilkan ke publik</p>
+					</div>
+					<div class="col-lg col-sm-12">
+						<input type="text" class="form-control" placeholder="Keahlian">
+					</div>
+				</div>
+
+				<div class="row mt-4">
+					<div class="col-lg-4 col-sm-12">
+						<h6> <b> Pendidikan </b> </h6>
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<input type="text" class="form-control" placeholder="Pendidikan">
+					</div>
+					<div class="col-lg col-sm-12">
+						<button class="btn" style="background-color: #7784EE; color: white;">Tambah</button>
+					</div>
+				</div>
+
+				<div class="row mt-4">
+					<div class="col-lg-4 col-sm-12">
+						<h6> <b> Sertifikasi </b> </h6>
+					</div>
+					<div class="col-lg-4 col-sm-12">
+						<input type="text" class="form-control" placeholder="Sertifikasi">
+					</div>
+					<div class="col-lg col-sm-12">
+						<button class="btn" style="background-color: #7784EE; color: white;">Tambah</button>
+					</div>
+				</div>
+
+				<div class="row top">
+					<button class="btn btn-next ms-auto" formaction="gabungMitra3.html">Lanjutkan</button>
+				</div>
+			</form>
+		</div>
+
+		<div class="footer">
+			<p>Woka @ 2021, PT. Woka.</p>
+		</div>
+	</div>
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

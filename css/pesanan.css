@@ -1,9 +1,7 @@
 body {
-
     font-family: 'Poppins', sans-serif;
     width: 100%;
     color: #000000;
-
 }
 
 a {
@@ -26,11 +24,6 @@ a {
     border: 5px solid palevioletred;
 }
 
-.bor {
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
 .bar {
     background-color: white;
     width: 100%;
@@ -40,6 +33,7 @@ a {
 }
 
 .footer {
+    padding-top: 10px;
     text-align: center !important;
     color: #979797;
     width: 100%;
@@ -55,28 +49,29 @@ a {
 	margin: 0 auto;
 }
 
+.box {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 4% 4% 4% 4%;
+    /* margin: 5%; */
+}
+
 .form-control {
     width: 500px;
 }
 
-.btn-pesan {
-    background-color: #7784EE;
+.bg-proses1 {
+    background-color: #D459E8;
     color: white;
 }
-
-.box {
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    padding: 4% 4% 4% 4%;
+.bg-proses2 {
+    background-color: #46BD84;
+    color: white;
 }
-
-.btn-hub {
-    background-color: #EAEEF6;
-    color: #7784EE;
-    border: 1px solid #7784EE;
-    border-radius: 5px;
-    padding: 1% 1% 1% 1%;
+.bg-proses3 {
+    background-color: #08A0F7;
+    color: white;
 }
 
 @media only screen and (max-width: 700px) {
