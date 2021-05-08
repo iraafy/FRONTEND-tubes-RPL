@@ -83,7 +83,9 @@
 			<div class="col-lg-5 col-sm-12">
 				<div class="row ms-3 me-3">
 					<div class="box">
-						<p style="text-align: right;"><i class="bi bi-pencil-fill"></i></p>
+
+						<p style="text-align: right;"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-pencil-fill"></i></button></p>
+
 						<img src="assets/profile.PNG" width="30%" class="rounded-circle flex mb-3" alt="">
 						<p style="text-align: center;"><b>Dono Cassano</b></p>
 						<p style="text-align: center;">Cirebon, Jawa Barat</p>
@@ -181,6 +183,42 @@
 	<div class="bar mt-5"></div>
 	<div class="footer">
 		<p>Woka @ 2021, PT. Woka.</p>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalLabel">Edit Profil</h5>
+        			</button>
+      			</div>
+      			<div class="modal-body">
+      				<table>
+      					<tr>
+      						<td>Nama</td>
+      						<td>:</td>
+      						<td><input type="text"/></td>
+      					</tr>
+      					<tr>
+      						<td>Alamat</td>
+      						<td>:</td>
+      						<td><input type="text"/></td>
+      					</tr>
+      					<tr>
+      						<td>Foto Profil</td>
+      						<td>:</td>
+      						<td><input type="file" value="UpFoto"/></td>
+      					</tr>
+      				</table>
+     			</div>
+      			<div class="modal-footer">
+      				<button type="button" class="btn btn-primary" data-bs-dismiss="modal" aria-label="Close">Cancel</button>
+        			<button type="button" class="btn btn-primary">Save changes</button>
+      			</div>
+    		</div>
+  		</div>
 	</div>
 
 	<!-- Option 1: Bootstrap Bundle with Popper -->
