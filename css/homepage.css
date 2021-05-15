@@ -80,6 +80,23 @@ a {
     padding: 1% 1% 1% 1%;
 }
 
+.chatBubble1 {
+    background-color: #59aad0;
+    color: #000000;
+    padding: 5px 5px 5px 5px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.chatBubble2 {
+    background-color: #59aad0;
+    color: #000000;
+    padding: 5px 5px 5px 5px;
+    width: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+}
+
 @media only screen and (max-width: 700px) {
     .form-control {
         width: 400px;
